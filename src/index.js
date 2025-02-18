@@ -4,12 +4,14 @@ import './index.css';
 import UseForm from './UseForm';
 import reportWebVitals from './reportWebVitals';
 import UseReducer from './hooks/UseReducer';
+import UseRef from './hooks/UseRef';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <UseForm /> */}
-    <UseReducer />
+    {/* <UseReducer /> */}
+    <UseRef />
   </React.StrictMode>
 );
 
